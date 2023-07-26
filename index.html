@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Dr. APJ Abdul Kalam</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #252A34;
+            color: #E1E8ED;
+        }
+
+        header {
+            text-align: center;
+            background-color: #1E232C;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #1E232C;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 1rem auto;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeInAnimation ease 2s forwards;
+        }
+
+        .stickers {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .sticker {
+            padding: 0.5rem 1rem;
+            background-color: #ED4C67;
+            color: #fff;
+            border-radius: 20px;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: #F79F1F;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1E232C;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        /* Animation styles */
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .neon-text {
+            color: #F79F1F;
+            text-shadow: 0 0 10px #F79F1F, 0 0 20px #F79F1F, 0 0 30px #F79F1F, 0 0 40px #F79F1F;
+            animation: glowAnimation 1.5s ease-in-out infinite alternate;
+        }
+
+        @keyframes glowAnimation {
+            0% {
+                text-shadow: 0 0 10px #F79F1F, 0 0 20px #F79F1F, 0 0 30px #F79F1F, 0 0 40px #F79F1F;
+            }
+
+            100% {
+                text-shadow: 0 0 20px #F79F1F, 0 0 30px #F79F1F, 0 0 40px #F79F1F, 0 0 50px #F79F1F;
+            }
+        }
+
+        /* Background stickers */
+        .sticker-rocket {
+            position: absolute;
+            top: 10%;
+            right: 5%;
+            transform: rotate(15deg);
+            opacity: 0.2;
+        }
+
+        .sticker-scientist {
+            position: absolute;
+            bottom: 10%;
+            left: 5%;
+            transform: rotate(-15deg);
+            opacity: 0.2;
+        }
+
+        .sticker-books {
+            position: absolute;
+            top: 80%;
+            right: 10%;
+            transform: rotate(-10deg);
+            opacity: 0.2;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="neon-text">Tribute to Dr. APJ Abdul Kalam</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <section>
+                <img src="kalam.jpg" alt="Dr. APJ Abdul Kalam">
+                <p>
+                    Welcome to this tribute page dedicated to Dr. APJ Abdul Kalam, an Indian scientist and the honorable
+                    11th president of India. He was born on October 15, 1931. He played a leading role in developing
+                    missile and nuclear weapon projects, which rewarded him with a nickname "The Missile Man."
+                </p>
+                <p>
+                    He was a very simple person who lived an unpretentious lifestyle. He had a keen interest in literature
+                    and wrote poems. He never married. He always faced media himself for his failures while letting others
+                    address the success. He remained active till the very end. He died while delivering a lecture at the IIM.
+                </p>
+                <div class="stickers">
+                    <div class="sticker">Scientist</div>
+                    <div class="sticker">Visionary</div>
+                    <div class="sticker">President</div>
+                </div>
+                <div class="sticker-rocket">🚀</div>
+                <div class="sticker-scientist">🧪</div>
+            </section>
+
+            <section>
+                <h2>Timeline</h2>
+                <p>
+                    1931-Born to a Tamil Muslim family in the pilgrimage center of Rameswaram on Pamban Island, then in the
+                    Madras Presidency and now in the State of Tamil Nadu.
+                </p>
+                <!-- Add other timeline points here -->
+                <div class="sticker-rocket">🚀</div>
+            </section>
+
+            <section>
+                <h2>His Famous Books</h2>
+                <ul>
+                    <li>India 2020: A Vision for the New Millennium.</li>
+                    <li>Wings of Fire: An Autobiography.</li>
+                    <li>Ignited Minds: Unleashing the Power within India.</li>
+                    <li>The Luminous Sparks: A Biography in Verse and Colors.</li>
+                    <li>Guiding Souls: Dialogues on the Purpose of Life.</li>
+                    <li>Mission of India: A Vision of Indian Youth.</li>
+                </ul>
+                <p>For more books, <a href="#">Click here</a></p>
+                <div class="sticker-books">📚</div>
+            </section>
+
+            <section>
+                <h2>Honors of Kalam</h2>
+                <ul>
+                    <li>1997- Bharat Ratna, Indira Gandhi Award for national integration</li>
+                    <li>1981- Padma Bhushan</li>
+                    <li>1990- Padma Vibhushan</li>
+                    <li>2009- Hoover Medal</li>
+                    <li>1998- Veer Savarkar Award</li>
+                    <li>2011- IEEE Honorary Award</li>
+                    <li>2000- Ramanujan Award</li>
+                </ul>
+                <div class="sticker-rocket">🚀</div>
+            </section>
+
+            <section>
+                <h2>Quotes</h2>
+                <blockquote>
+                    "For great men, religion is a way of making friends; small people make religion a fighting tool."
+                    -Dr. APJ Abdul Kalam
+                </blockquote>
+                <p>Do read more about this impeccable personality <a href="#">Click here</a>.</p>
+                <div class="sticker-scientist">🧪</div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Created with love by [Sahil]. </p>
+    </footer>
+</body>
+</html>
